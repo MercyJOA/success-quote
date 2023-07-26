@@ -1,0 +1,38 @@
+*{box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html{font-size: 16px;}
+body{
+    background-image: url(images/polina-kuzovkova-a6ASE94CtAE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+    
+}
+#container{text-align:center ;
+margin: 20%;
+border: 0.1rem solid goldenrod;
+background-color: rgb(243, 238, 189);
+padding: 3%;
+font-size: 2rem;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+}
+#button{
+    background-color: rgb(239, 233, 34);
+    height: 5rem;
+    width: 20rem;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    color: rgb(11, 157, 3);
+    border: 0.3rem solid rgb(11, 194, 11);
+    border-radius: 1rem;
+}
+#button:hover{background-color: darkseagreen;
+color: white;
+border: 0;}
+#button:active{
+    font-size:1.5rem ;
+    background-color: rgb(21, 21, 67);
+}
